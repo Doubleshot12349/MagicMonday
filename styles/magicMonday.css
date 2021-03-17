@@ -1,0 +1,70 @@
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    border: 3px solid #000;
+    width: 100px;
+    background: white;
+    color: maroon;
+    position: fixed;
+}
+li a {
+    display: block;
+    width: 100px;
+    text-decoration: none;
+}
+li{
+    text-align: center;
+    border-bottom: 2px dashed #000;
+}
+li:last-child{
+    border-bottom: none;
+}
+li a.active{
+    background: maroon;
+    color: #fff
+}
+li a:hover{
+    background: blue;
+    color: chartreuse;
+}
+div {
+    margin: 0px 150px;
+}
+img {
+    position: relative;
+    right: 0px;
+    object-fit: fill;
+}
+.center {
+    position: relative;
+    object-fit: none;
+}
+h1 {
+    text-align: center;
+    margin-right: 700px;
+}
+p{
+    margin-right: 700px;
+}
+ol {
+    
+    list-style: none;
+}
+.left{
+    text-align: center;
+}
+.left h1{
+    margin: auto;
+    text-align: center;
+}
+.text p{
+    margin:0px 250px;
+}
+.text h1{
+    margin:10px 250px;
+}
+#muldrotha{
+    position: relative;
+    margin-left: 110px;
+}
